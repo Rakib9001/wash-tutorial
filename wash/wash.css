@@ -1,0 +1,135 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0  20px;
+}
+.stylea {
+    color: var(--Dark-01, #2904fe);
+font-size: 80px;
+font-weight: 800;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+ }
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(68, 58, 58);
+    font-size: larger;
+     
+}
+.buttona{
+    width:100px;
+    height:30px;
+    font-size: large;
+        border-radius: 5px;
+        color: rgb(7, 7, 7);
+        background:rgb(212, 255, 0);
+}
+
+.header{
+    
+    background-color: rgb(157, 235, 252);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+    
+}
+ .bannera{
+     display: flex;
+     text-align: center;
+     text-shadow: #2904fe;
+     color: rgb(255, 0, 0);
+ }
+  
+ .profile{
+    width: 500px;
+     
+ }
+ .call{
+    border-radius: 5px;
+border: 2px solid #0b0c0b;
+width: 100px;
+height: 35px;
+flex-shrink: 0;
+color: rgb(236, 252, 6);
+background-color: rgb(85, 0, 255);
+
+ }
+ .buttonb{
+    width: 150px;
+    font-size: 25px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 5px;
+background: rgb(244, 96, 197);
+color: rgb(248, 252, 7);
+margin-left: 20px;
+ }
+ p a{
+    text-decoration: none;
+    color: #c4fe04;
+ }
+ .banner-greading{
+    font-size: 45px;
+    color: #fd0404;
+    margin-bottom: 0px;
+ }
+ .banner-title{
+    font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+ }
+ .banner-dis{
+
+ }
+ .content{
+    max-width: 500px;
+ }
+
+
+.about{
+    padding: 200px 100px;
+    border-radius: 10px 0;
+    background: rgb(155, 252, 191);
+    margin: 140px 180px;
+}
+.section-title{
+    color:(#181818);
+ text-align:center;
+font-size: 35px;
+font-weight: 700;
+margin: 35px 48px;
+}
+.section-dis{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+
+}
+.elon{
+    color: #ff5900;
+    text-align: center;
+    font-size: 18px;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(108, 108, 214);
+}
+.about-info{
+    text-align: center;
+}
